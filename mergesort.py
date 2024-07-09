@@ -1,3 +1,4 @@
+# O(nlog(n))
 def merge_sort(nums):
     if len(nums) < 2: return nums
     mid = len(nums) // 2
